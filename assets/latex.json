@@ -47,7 +47,7 @@
   {
     "id": "83705069-176c-4717-bee5-1e72766cf19d",
     "scriptName": "\\[",
-    "findRegex": "/^\\\\\\[\\s*\\n*(.*?)\\n*\\s*\\\\\\]\\s*$/gm",
+    "findRegex": "/\\\\\\[\\s*([\\s\\S]*?)\\s*\\\\\\]/g",
     "replaceString": "```latex\n$1\n```",
     "trimStrings": [],
     "placement": [1, 2, 3],
